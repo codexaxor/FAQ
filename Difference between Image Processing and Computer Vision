@@ -1,0 +1,7 @@
+Difference between Image Processing and Computer Vision,
+
+Image Processing mainly deals with getting different representations of images by transforming them in various ways. Often, but not always, this is done for “viewing” purposes— examples include changing the color space of the image, sharpening or blurring it, changing the contrast, affine transformation, cropping, resizing, and so forth. 
+Computer Vision on the other hand deals with extracting information from images so that one can make decisions. Often, information has to be extracted from noisy images, so one also has to analyze the noise and think of ways to suppress that noise while not affecting the relevant information content of the image too much.
+--
+Practical OpenCV
+Authors: Samarth Brahmbhatt
