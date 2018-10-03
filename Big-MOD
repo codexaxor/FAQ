@@ -1,0 +1,12 @@
+
+int BigMod(ll B,ll P,ll M)
+{
+    if(P==0) return 1;
+
+    if(P%2 == 0)   /// for even test 
+    {
+        int x = BigMod(B,P/2,M);
+        return (x*x)%M;
+    }
+    else return (BigMod(B,P-1,M) * B%M) % M;  /// for odd test 
+}
