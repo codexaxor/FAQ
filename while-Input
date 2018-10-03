@@ -1,0 +1,1 @@
+while(cin>>N,>>Q,N||Q) /// jokhn both N & Q, 0 hbe programme terminate hoye jabe
