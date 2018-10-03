@@ -1,0 +1,5 @@
+
+
+string myline;
+
+getline(cin,myline);
