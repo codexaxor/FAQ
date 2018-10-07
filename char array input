@@ -1,0 +1,5 @@
+char name[1000];
+
+cin.get(name,1000);
+
+cout<<name<<endl;
