@@ -1,0 +1,16 @@
+int isPrime(ll num)
+{
+    if (num<2) {
+        return 0;
+    }
+    if (num == 2) {
+        return 1;
+    }
+    else{
+        int limit = sqrt(num);
+        for (int i=3; i<=limit ; i++)
+            if (num%i==0)
+                return 0; //divider mod input number = 0 not prime
+        
+        return 1;
+    }
