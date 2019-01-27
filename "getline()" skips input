@@ -1,0 +1,12 @@
+Sometimes "getline()" function does error. while it is being using along with "std::cin>>"
+
+now , to avoid this error we must use cin.ignore(); before using "getline()"
+
+
+exmple : 
+
+
+string s;
+cin>>n;
+cin.ignore();
+getline(cin,s);
