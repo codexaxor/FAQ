@@ -1,0 +1,14 @@
+void prseString(string s){
+    
+    string token ;
+    string bug = "."; /// terminating point 
+    int pos =0;
+    
+    while ( (pos = s.find(bug)) != string::npos ) {
+        
+        token = s.substr(0,pos);
+        cout<<token<<endl;
+        s.erase(0,pos+bug.length());
+    }
+    cout<<s<<endl;
+}
