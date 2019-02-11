@@ -1,0 +1,13 @@
+You can use std::find from <algorithm>:
+
+std::find(vector.begin(), vector.end(), item) != vector.end()
+This returns a bool (true if present, false otherwise)
+
+example : 
+
+#include <algorithm>
+
+if ( std::find(vector.begin(), vector.end(), element) != vector.end() )
+   do_this();
+else
+   do_that();
