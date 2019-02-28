@@ -1,0 +1,12 @@
+
+
+string a; // value which should be divided
+long long int b; // dividor
+
+long long int rem = 0;
+
+for (int i = 0; i < l; ++i) {
+
+            rem = ( ( rem *10 ) + (a[i] - '0') ) % b;
+
+}
