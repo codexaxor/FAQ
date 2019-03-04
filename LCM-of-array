@@ -1,0 +1,33 @@
+int gcd(int a,int b){
+
+
+	if (b == 0) return a;
+
+	return gcd(b,a%b);
+}
+
+int lcm(int ar[], int n){
+
+	int ans = ar[0];
+
+
+	for (int i = 0; i < n; ++i)
+	{
+		ans = (ar[i] * ans) / gcd(ar[i],ans );
+	}
+
+	return ans;
+
+}
+
+
+int main() {
+	 
+
+int ar[] = {2,7,3,9,4};
+int n = sizeof(ar) / sizeof(*ar);
+	cout<<lcm(ar,n)<<endl;
+
+
+	return 0;
+}
