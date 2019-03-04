@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int gcd(int a,int b){
+
+
+	if (a == 0) return b;
+
+	return gcd(b%a,a);
+}
+
+
+int main() {
+	 
+	int i,n,cn=0;
+	cin>>n;
+	for (int i = 1; i <= n; ++i)
+	{
+		if (gcd(i,n) == 1)
+		{
+			cn++;
+
+		}
+	}
+
+	cout<<cn<<endl;
+	return 0;
+}
+
+
+
+
