@@ -4,15 +4,13 @@ using namespace std;
 #define rd freopen("input.txt","r",stdin)
 #define wr freopen("output.txt","w",stdout)
 
-
-
 int PrimeCount;
 std::vector<int> prime;
 
-const int MAX = 1e5+5;
+const int MAX = 10000009;
 bool Check(int N,int pos){return (bool)(N & (1<<pos));}
 int Set(int N,int pos){	return N=N | (1<<pos);}
-int status[MAX>>5];
+int status[MAX];
 void sieve()
 {
      int i, j, sqrtN; 
@@ -29,17 +27,16 @@ void sieve()
 	 }
 	 prime.push_back(2);
 	 for(i=3;i<=MAX;i+=2)
-		 if( Check(status[i>>5],i&31)==0)
+	 {
+	 	if( Check(status[i>>5],i&31)==0)
 	 	 {
 	 	 	prime.push_back(i);
 	 	 	PrimeCount++;
-	 	 }		 	
+	 	 }	
+	 }
 }
 
-
-/*********************************************************/
 ///////////////// prime power factorization //////////////
-/*********************************************************/
 
 vector<int>base;   /// storing base
 vector<int>power;  /// storing power
@@ -51,8 +48,6 @@ void decomp(int n){
 	for (int i = 0; i < PrimeCount && prime[i] <= root; ++i)
 	{
 		int PowerCounter=0;
-
-		//if (Check(status[i>>5],i&31)==0) break; /// optimization
 		
 		if (n % prime[i] == 0)
 			{
