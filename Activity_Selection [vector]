@@ -1,0 +1,45 @@
+vector <pair<int,int> > v; // starting & finishing time storing
+int Res=1,n; // as the first activity is always printed
+
+void ActivitySelection()
+{
+    
+    sort(v.begin(),v.end());
+    
+    int PresentFin=v[0].first; // stores the finish time of activity presntly selected
+    
+    /*Selecting the activites from the set*/
+    for(int i=1;i<n;++i)
+        if(v[i].second>=PresentFin)
+        {
+            Res++;
+            PresentFin=v[i].first;
+        }
+    printf("%d\n",Res);
+    
+}
+
+
+
+int main()
+{
+    int T,s,e;
+    
+    cin>>T;
+    while (T--) {
+        
+        cin>>n;
+        
+        for (int i=0; i<n; i++) {
+            cin>>s>>e;
+            v.push_back(make_pair(e,s));
+        }
+        ActivitySelection();
+        v.clear();
+        Res=1;
+    }
+    
+    
+    
+    return 0;
+}
