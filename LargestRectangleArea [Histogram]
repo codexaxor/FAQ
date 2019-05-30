@@ -1,0 +1,38 @@
+vector<int >A;
+
+int largestRectangleArea() {
+    A.push_back(0); // sentinel to ensure all indices get popped off the stack
+    stack<int> S;
+    int maxArea = 0;
+    for (int i = 0; i < A.size(); i++) {
+        while (!S.empty() && A[S.top()] >= A[i]) {
+            int height = A[S.top()];
+            S.pop();
+            int left = S.empty() ? 0 : S.top() + 1, right = i - 1;
+            maxArea = max(maxArea, (right - left + 1) * height);
+        }
+        S.push(i);
+    }
+    return maxArea;
+}
+
+int main()
+{
+
+    int T,n,i,j,k,csN=1;
+    cin>>T;
+    
+    while (T--) {
+        cin>>n;   
+        for (i=0; i<n; i++)
+        {
+            cin>>k;
+            A.push_back(k);
+        }
+        int r = largestRectangleArea();
+
+        A.clear();
+    }
+   
+    return 0;
+}
