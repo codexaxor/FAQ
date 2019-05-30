@@ -1,0 +1,68 @@
+int matrix[100+10][100+10] , temp[100+10] ;
+
+
+int kadane(int N)
+{
+    int mx = INT_MIN , S=0 ;
+    bool flag = false ;
+    
+    for(int i=0;i<N;i++)
+    {
+        if(temp[i]>=0) flag = true ;
+        S += temp[i];
+        if(S<0)
+            S=0;
+        else if(S>mx)
+            mx = S ;
+
+    }
+    if(flag) return mx ;
+    mx = INT_MIN;
+    for(int i=0;i<N;i++)
+        if(mx<temp[i])
+            mx = temp[i] ;
+    
+    return mx ;
+}
+int findMaxSum(int N)
+{
+    int maxSum = INT_MIN ;
+    for(int left=0;left<N;left++)
+    {
+        
+        memset(temp, 0 , sizeof(temp) );
+        
+        
+        for(int right=left;right<N;right++)
+        {
+            for(int i=0;i<N;i++) temp[i]+=matrix[i][right];
+            int t = kadane(N);
+            if(t>maxSum)
+            {
+                maxSum = t ;
+                
+            }
+        }
+    }
+    return maxSum;
+   
+}
+int main()
+{
+    rd;
+    
+    int N ; // N is the number of rows and columns .
+    while(scanf("%d",&N)==1)
+    {
+        for(int i=0;i<N;i++)
+        {
+            for(int j=0;j<N;j++)
+            {
+                scanf("%d",&matrix[i][j]);
+            }
+        }
+        int r = findMaxSum(N);
+        cout<<r<<endl;
+    }
+    return 0;
+}
