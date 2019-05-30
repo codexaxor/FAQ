@@ -1,0 +1,25 @@
+int temp[3000][3000];
+
+int kadane(int N) 
+{
+    int mx = INT_MIN , S=0 ;
+    bool flag = false ;
+    
+    for(int i=0;i<N;i++)
+    {
+        if(temp[i]>=0) flag = true ;
+        S += temp[i];
+        if(S<0)
+            S=0;
+        else if(S>mx)
+            mx = S ;
+
+    }
+    if(flag) return mx ;
+    mx = INT_MIN;
+    for(int i=0;i<N;i++)
+        if(mx<temp[i])
+            mx = temp[i] ;
+    
+    return mx ;
+}
