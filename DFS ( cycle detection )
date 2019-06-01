@@ -1,0 +1,90 @@
+vector<int>G[1000];
+
+int color[1000];
+
+queue<int>q;
+
+stack<int>s;
+
+int node,edge;
+
+bool visited[1000];
+
+int dis[1000], fin[1000], tm = 0;
+
+bool hasCycle = false;
+
+
+void DFS(int n){
+
+	if (visited[n])
+	{
+		return;
+	}
+
+	visited[n] = true;
+
+    color[n] = 1;
+
+    tm++;
+
+    dis[n] = tm;
+
+
+    for (int i=0; i<G[n].size(); i++) {
+        int x = G[n][i];
+
+        if (visited[x] && color[x]== 1 && color[n] == 1) {
+            hasCycle = true;
+        }
+        else if (!visited[x])
+        {
+        	DFS(x);
+        }
+    }
+   	
+   	color[n] = 2;
+   	tm++;
+   	fin[n] = tm;
+    s.push(n);
+
+}
+
+
+
+
+int main(int argc, char const *argv[])
+{
+
+	//rd;
+	
+	cin>>node>>edge;
+
+    for (int i =0; i<edge; i++) {
+        int u, v;
+        cin>>u>>v;
+
+        G[u].push_back(v);
+
+    }
+   	
+   	for (int i = 1; i <= node; ++i)
+   	{
+   		DFS(i);
+   	}
+
+   	if (hasCycle)
+   	{
+   		cout<<"Cycle found"<<endl;
+   	}
+   	else{
+   		while(!s.empty())
+   		{
+   			cout<<s.top()<<endl;
+   			s.pop();
+   		}
+   	}
+
+
+	return 0;
+}
