@@ -1,0 +1,6 @@
+    string s;
+    getline(cin,s);
+    
+    
+    
+    /// This Function takes input with white space;
