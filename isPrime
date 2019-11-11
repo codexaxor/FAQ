@@ -14,3 +14,4 @@ int isPrime(ll num)
         
         return 1;
     }
+}
