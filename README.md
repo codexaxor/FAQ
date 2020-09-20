@@ -13,7 +13,7 @@ Hosted :octocat:
 
 <br>
 
-:large_blue_circle: ## Smartphone 
+:large_blue_circle: Smartphone 
 ---
 ---
 
