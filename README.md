@@ -63,7 +63,8 @@ Hosted :octocat:
 ---
 1. Open Android Studio and Click " **Get from Version Control** "
 
-<img src="https://github.com/s-rifat/Vtracker-Edit/tree/master/readme_img/a1.png" width="1000">
+![Android Studio Welcome Screen](https://user-images.githubusercontent.com/24709603/93721433-244d0800-fbb2-11ea-8fb5-73c3463d9806.png)
+
 
 2. Copy the project repository 
 > https://github.com/s-rifat/Vtracker-Edit.git
