@@ -13,6 +13,8 @@ Hosted :octocat:
 
 <br>
 
+---
+---
 ## Smartphone :large_blue_circle: 
 ---
 ---
@@ -29,6 +31,8 @@ Hosted :octocat:
 
 <br>
 
+---
+---
 ## Tablet :large_blue_circle:
 ---
 ---
@@ -45,9 +49,11 @@ Hosted :octocat:
 
 <br>
 
+---
+---
 ## Android Studio :large_blue_circle:
-***
-***
+---
+---
 
 ### *Prerequisites*
 ---
@@ -97,3 +103,8 @@ Hosted :octocat:
 
 ![emulator](https://user-images.githubusercontent.com/24709603/93721480-6413ef80-fbb2-11ea-968a-49e31b85edf3.png)
 
+<br><br>
+
+# Developed By
+
+@codexaxor :blue_heart:
