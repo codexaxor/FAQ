@@ -108,4 +108,4 @@ This document gives the instructions to install and run **VTracker** android app
 ## Developed By
 @codexaxor :blue_heart:
 
-## Hosted On :octocat: **github**
+## Hosted On :octocat: 
