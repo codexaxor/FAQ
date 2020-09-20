@@ -92,8 +92,8 @@ Hosted :octocat:
 
 <br>
 
-```
-5. Run project on Emulator
-```
+
+:five: ###5. Run project on Emulator
+
 ![emulator](https://user-images.githubusercontent.com/24709603/93721480-6413ef80-fbb2-11ea-968a-49e31b85edf3.png)
 
