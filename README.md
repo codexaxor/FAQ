@@ -76,7 +76,7 @@ Hosted :octocat:
 <br>
 
 
-:three:&nbsp;**Paste it URL section and hit Clone**
+:three:$~~$ **Paste it URL section and hit Clone**
 
 
 ![URL_place](https://user-images.githubusercontent.com/24709603/93721473-60806880-fbb2-11ea-867d-0ceb4e2065c2.png)
