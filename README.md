@@ -18,34 +18,34 @@ Hosted :octocat:
 ---
 
 ### *Prerequisites*
-* Operating System : Android :white_check_mark:
+* Operating System : Android :heavy_check_mark:
 * Operating System Version : Lollipop(v5.0) or Higer. 
 
 ### _Procedure_
 ---
-1. Download from [Amazon AppStore](https://www.google.com)
+1. Download from [Amazon AppStore](https://www.google.com) :link:
 1. Install
 1. Run
 
 <br>
 
-## Tablet
+:large_blue_circle: Tablet
 ---
 ---
 
 ### *Prerequisites*
-* Operating System : Android :white_check_mark:
+* Operating System : Android :heavy_check_mark:
 * Operating System Version : Lollipop(v5.0) or Higer. 
 
 ### _Procedure_
 ---
-1. Download from [Amazon AppStore](https://www.google.com)
+1. Download from [Amazon AppStore](https://www.google.com) :link:
 1. Install
 1. Run
 
 <br>
 
-## Android Studio
+:large_blue_circle: Android Studio
 ***
 ***
 
@@ -62,7 +62,7 @@ Hosted :octocat:
 ### _Procedure_
 ---
 ```
-1. Open Android Studio and Click " **Get from Version Control** "
+1. Open Android Studio and Click " Get from Version Control "
 ```
 ![Android Studio Welcome Screen](https://user-images.githubusercontent.com/24709603/93721433-244d0800-fbb2-11ea-8fb5-73c3463d9806.png)
 
