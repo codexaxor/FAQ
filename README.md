@@ -9,7 +9,7 @@
 
 This document gives the instructions to install and run **VTracker** android application for all systems (Smartphone, Tablet and Android Studio IDE) . 
 
-Hosted :octocat:
+
 
 <br>
 
@@ -105,6 +105,7 @@ Hosted :octocat:
 
 <br><br>
 
-# Developed By
-
+## Developed By
 @codexaxor :blue_heart:
+
+## Hosted On :octocat: **github**
