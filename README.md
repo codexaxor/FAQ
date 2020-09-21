@@ -10,7 +10,7 @@ Hosted :octocat:
 
 <br>
 
-## Smartphone :large_blue_circle: 
+:large_blue_circle: Smartphone 
 ---
 ---
 
@@ -27,7 +27,7 @@ Hosted :octocat:
 <br>
 
 
-:large_blue_circle: ## Tablet 
+:large_blue_circle:  Tablet 
 ---
 ---
 
@@ -44,7 +44,7 @@ Hosted :octocat:
 <br>
 
 
-## Android Studio :large_blue_circle:
+:large_blue_circle: Android Studio 
 ---
 ---
 
