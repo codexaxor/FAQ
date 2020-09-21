@@ -75,7 +75,7 @@ This document gives the instructions to install and run **VTracker** android app
 <br>
 
 
-:two: &nbsp; &nbsp; **Copy the project repository** 
+:two: &nbsp; &nbsp; ### Copy the project repository
 
 > https://github.com/s-rifat/Vtracker-Edit.git
 
