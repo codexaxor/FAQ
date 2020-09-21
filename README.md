@@ -2,19 +2,14 @@
 
 # Installation Guide for **VTracker**
 
-***
-***
-
 
 
 This document gives the instructions to install and run **VTracker** android application for all systems (Smartphone, Tablet and Android Studio IDE) . 
 
-
+Hosted :octocat:
 
 <br>
 
----
----
 ## Smartphone :large_blue_circle: 
 ---
 ---
@@ -31,9 +26,8 @@ This document gives the instructions to install and run **VTracker** android app
 
 <br>
 
----
----
-## Tablet :large_blue_circle:
+
+:large_blue_circle: ## Tablet 
 ---
 ---
 
@@ -49,8 +43,7 @@ This document gives the instructions to install and run **VTracker** android app
 
 <br>
 
----
----
+
 ## Android Studio :large_blue_circle:
 ---
 ---
@@ -75,7 +68,7 @@ This document gives the instructions to install and run **VTracker** android app
 <br>
 
 
-:two: &nbsp; &nbsp; ### Copy the project repository
+:two: &nbsp; &nbsp; **Copy the project repository** 
 
 > https://github.com/s-rifat/Vtracker-Edit.git
 
@@ -105,7 +98,6 @@ This document gives the instructions to install and run **VTracker** android app
 
 <br><br>
 
-## Developed By
-@codexaxor :blue_heart:
+# Developed By
 
-## Hosted On :octocat: 
+@codexaxor :blue_heart:
