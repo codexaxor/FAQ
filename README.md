@@ -27,7 +27,7 @@ Features that we have implemented are given below:
 
 ## Member’s Contributions :
 ---
-*Member 1 :* 
+*Member 1* : 
 Name: MD. Abu Yousuf Sajal
 Id: 170104025
 Role: Front-End
@@ -39,7 +39,7 @@ Structure Language : HTML5
 Styling Language : CSS
 Functional Language : Javascript
 
-*Member 2 :* 
+*Member 2* : 
 Name: Syed Rifat Manjur
 Id: 170104026
 Role: Back-End
@@ -60,12 +60,12 @@ At first you need to install
 ### For connecting to database, do the following :
 
 1. Copy and Paste FindLostThings.mdf and FindLostThings_log.ldf file to the location 
-C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA or your installed location.
+'C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA' or your installed location.
 1. Open Microsoft SQL Server Management Studio. You will see a dialog box "Connect to Server". Here, you will see your server name.
 Copy your server name before clicking connect. example: DESKTOP-D3OV9OU\SQLEXPRESS.
-1. Right click on Database. click Attach. Click Add. Select FindLostThings.mdf. Click OK. Click OK.
-1. Open the project in Visual Studio 2019. In Web.confiq file, go to the tag <connectionString>. Here, you will find
-data source=DESKTOP-D3OV9OU\SQLEXPRESS. Replace the server name with your server name that you copied.
+1. Right click on Database. click Attach. Click Add. Select 'FindLostThings.mdf'. Click OK. Click OK.
+1. Open the project in Visual Studio 2019. In 'Web.confiq' file, go to the tag <connectionString>. Here, you will find
+data 'source=DESKTOP-D3OV9OU\SQLEXPRESS'. Replace the server name with your server name that you copied.
 
 Database connection is completed! Now, run the he project and enjoy all our interesting features!
 
