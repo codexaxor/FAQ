@@ -27,7 +27,7 @@ Features that we have implemented are given below:
 
 ## Member’s Contributions :
 ---
-*Member 1* : 
+**Member 1** : 
 Name: MD. Abu Yousuf Sajal
 Id: 170104025
 Role: Front-End
@@ -39,7 +39,7 @@ Structure Language : HTML5
 Styling Language : CSS
 Functional Language : Javascript
 
-*Member 2* : 
+**Member 2** : 
 Name: Syed Rifat Manjur
 Id: 170104026
 Role: Back-End
