@@ -34,24 +34,36 @@ Id: 170104025
 <br>
 Role: Front-End
 <br>
-<br>
 _Frontend Technologies:_ 
+<br>
 Framework : Bootstrap, Fontawesome
+<br>
 Design Pattern : Responsive
+<br>
 Structure Language : HTML5
+<br>
 Styling Language : CSS
+<br>
 Functional Language : Javascript
+<br><br>
 
 **Member 2** : <br>
 Name: Syed Rifat Manjur
+<br>
 Id: 170104026
+<br>
 Role: Back-End
-
+<br>
 _Backend Technologies:_ 
+<br>
 Framework: ASP.NET, Entity Frame Work
+<br>
 Design Pattern: MVC
+<br>
 Programming Language: C#
+<br>
 Query Languages: LINQ, MSSQL
+<br>
 
 
 ## Instruction to follow for running the project :
