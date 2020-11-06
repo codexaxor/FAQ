@@ -27,11 +27,14 @@ Features that we have implemented are given below:
 
 ## Member’s Contributions :
 ---
-**Member 1** : 
+**Member 1** : <br>
 Name: MD. Abu Yousuf Sajal
+<br>
 Id: 170104025
+<br>
 Role: Front-End
-
+<br>
+<br>
 _Frontend Technologies:_ 
 Framework : Bootstrap, Fontawesome
 Design Pattern : Responsive
@@ -39,7 +42,7 @@ Structure Language : HTML5
 Styling Language : CSS
 Functional Language : Javascript
 
-**Member 2** : 
+**Member 2** : <br>
 Name: Syed Rifat Manjur
 Id: 170104026
 Role: Back-End
