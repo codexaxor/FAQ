@@ -28,3 +28,14 @@ scanf("%${1:d}",&${2:x});
 	<scope>source.c++</scope>
 </snippet>
 
+
+============ longlong int ==============
+<snippet>
+	<content><![CDATA[
+long long ${1:n};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
